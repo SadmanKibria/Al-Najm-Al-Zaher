@@ -1,21 +1,9 @@
 "use client";
 
 import type React from "react";
-import { useState } from "react";
 import { Mail } from "lucide-react";
 
 export default function ContactSection() {
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Email submitted:", email);
-    setSubmitted(true);
-    setEmail("");
-  };
-
   return (
     <section className="py-16 md:py-24 bg-white" id="contact">
       <div className="container">
@@ -26,7 +14,7 @@ export default function ContactSection() {
           <div className="w-20 h-1.5 bg-blue-600 rounded-full mb-6 mx-auto"></div>
           <p className="text-gray-700 text-lg">
             Get in touch with our team to discuss your commodity trading needs.
-            We're here to provide personalized support.
+            We&apos;re here to provide personalized support.
           </p>
         </div>
 
@@ -45,10 +33,10 @@ export default function ContactSection() {
               at:
             </p>
             <a
-              href="mailto:alnajmalzaher.uk@gmail.com"
+              href="mailto:durotech.uk@gmail.com"
               className="text-xl font-medium text-blue-600 hover:underline"
             >
-              alnajmalzaher.uk@gmail.com
+              durotech.uk@gmail.com
             </a>
           </div>
         </div>

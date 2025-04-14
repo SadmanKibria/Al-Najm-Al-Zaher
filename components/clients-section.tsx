@@ -39,7 +39,7 @@ export default function ClientsSection() {
         <div className="mt-16 text-center">
           <p className="text-slate-600 max-w-2xl mx-auto">
             Join our growing list of satisfied clients who trust us for their
-            commodity trading needs. We're committed to building lasting
+            commodity trading needs. We&apos;re committed to building lasting
             relationships based on trust, reliability, and outstanding results.
           </p>
         </div>

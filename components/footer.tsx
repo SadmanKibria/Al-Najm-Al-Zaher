@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Mail } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -11,8 +12,8 @@ export default function Footer() {
               <Image
                 src="/logo.png"
                 alt="Al Najm Al Zaher Logo"
-                width={80}
-                height={80}
+                width={100}
+                height={100}
                 className="bg-white p-1 rounded-md"
               />
             </div>
@@ -20,19 +21,20 @@ export default function Footer() {
               Providing comprehensive commodity trading solutions, specializing
               in agricultural commodities with global reach and expertise.
             </p>
+            <div className="flex items-center gap-2 text-gray-300">
+              <Mail className="h-4 w-4" />
+              <a
+                href="mailto:durotech.uk@gmail.com"
+                className="hover:text-white transition-colors"
+              >
+                durotech.uk@gmail.com
+              </a>
+            </div>
           </div>
 
           <div>
             <h3 className="text-lg font-semibold mb-4">Our Company</h3>
             <ul className="space-y-2 text-gray-300">
-              <li>
-                <Link
-                  href="/about"
-                  className="hover:text-white transition-colors"
-                >
-                  About Us
-                </Link>
-              </li>
               <li>
                 <Link
                   href="/about/company-profile"
@@ -116,42 +118,27 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-blue-900 mt-12 pt-6 text-gray-400 text-sm">
-          <div className="flex flex-col md:flex-row justify-between gap-4">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div>
               <p>
                 &copy; {new Date().getFullYear()} Al Najm Al Zaher. All rights
                 reserved.
               </p>
             </div>
-            <div className="flex gap-6">
-              <Link
-                href="/privacy-policy"
-                className="hover:text-white transition-colors"
-              >
-                Privacy Policy
-              </Link>
-              <Link
-                href="/terms-conditions"
-                className="hover:text-white transition-colors"
-              >
-                Terms & Conditions
-              </Link>
+            <div>
+              <p>
+                Powered by{" "}
+                <a
+                  href="https://www.sadmankibria.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-400 hover:text-white transition-colors"
+                >
+                  Sadman Kibria
+                </a>
+              </p>
             </div>
           </div>
-        </div>
-
-        <div className="text-center text-xs text-gray-500 mt-6">
-          <p>
-            Powered by{" "}
-            <a
-              href="https://www.sadmankibria.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-400 hover:text-white transition-colors"
-            >
-              Sadman Kibria
-            </a>
-          </p>
         </div>
       </div>
     </footer>

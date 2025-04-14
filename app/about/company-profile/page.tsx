@@ -56,7 +56,7 @@ export default function CompanyProfilePage() {
             <li>
               <strong>Excellence:</strong> We continuously strive for excellence
               in all aspects of our operations, seeking innovative solutions to
-              meet our clients' needs.
+              meet our clients&apos; needs.
             </li>
             <li>
               <strong>Sustainability:</strong> We are dedicated to promoting

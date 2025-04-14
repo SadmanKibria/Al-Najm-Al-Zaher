@@ -1,17 +1,17 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import HeroCarousel from "./hero-carousel";
+import HeroSlider from "./hero-slider";
 
 export default function Hero() {
-  const carouselImages = [
-    "/placeholder.svg?height=800&width=1920",
-    "/placeholder.svg?height=800&width=1920&text=Slide+2",
-    "/placeholder.svg?height=800&width=1920&text=Slide+3",
+  const slides = [
+    "/Soya-Bean-Oil.jpg?height=800&width=1920",
+    "/Wheat-Grain-scaled.jpg?height=800&width=1920&text=Slide+2",
+    "/Sunflower-Oil.jpg?height=800&width=1920&text=Slide+3",
   ];
 
   return (
     <section className="relative h-[700px] md:h-[800px]">
-      <HeroCarousel images={carouselImages}>
+      <HeroSlider slides={slides} interval={6000}>
         <div className="container h-[700px] md:h-[800px] flex flex-col justify-center">
           <div className="max-w-2xl text-white space-y-8 animate-fade-in">
             <div className="space-y-2">
@@ -36,8 +36,7 @@ export default function Hero() {
               </Button>
               <Button
                 size="lg"
-                variant="outline"
-                className="text-white border-white hover:bg-white/10 px-8 py-6 text-lg rounded-md"
+                className="bg-white/20 hover:bg-white/30 text-white border-2 border-white px-8 py-6 text-lg rounded-md backdrop-blur-sm transition-all"
                 asChild
               >
                 <Link href="#commodities">Explore Products</Link>
@@ -45,7 +44,7 @@ export default function Hero() {
             </div>
           </div>
         </div>
-      </HeroCarousel>
+      </HeroSlider>
     </section>
   );
 }

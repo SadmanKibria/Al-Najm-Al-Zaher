@@ -30,8 +30,8 @@ export default function ContactPage() {
           <div className="w-20 h-1.5 bg-blue-600 rounded-full mb-6"></div>
           <p className="max-w-3xl text-lg text-gray-700">
             Get in touch with our team to discuss your commodity trading needs.
-            We're here to provide personalized support and answer any questions
-            you may have.
+            We&apos;re here to provide personalized support and answer any
+            questions you may have.
           </p>
         </div>
 
@@ -50,10 +50,10 @@ export default function ContactPage() {
               at:
             </p>
             <a
-              href="mailto:alnajmalzaher.uk@gmail.com"
+              href="mailto:durotech.uk@gmail.com"
               className="text-xl font-medium text-blue-600 hover:underline"
             >
-              alnajmalzaher.uk@gmail.com
+              durotech.uk@gmail.com
             </a>
           </div>
         </div>

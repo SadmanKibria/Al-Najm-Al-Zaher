@@ -24,10 +24,10 @@ export default function DisclaimerPage() {
             No Warranties
           </h2>
           <p>
-            This website is provided "as is" without any representations or
-            warranties, express or implied. Durotech makes no representations or
-            warranties in relation to this website or the information and
-            materials provided on this website.
+            This website is provided &quot;as is&quot; without any
+            representations or warranties, express or implied. Durotech makes no
+            representations or warranties in relation to this website or the
+            information and materials provided on this website.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-[#172D56]">
@@ -66,7 +66,7 @@ export default function DisclaimerPage() {
             Revisions and Errata
           </h2>
           <p>
-            The materials appearing on Durotech's website could include
+            The materials appearing on Durotech&apos;s website could include
             technical, typographical, or photographic errors. Durotech does not
             warrant that any of the materials on its website are accurate,
             complete, or current. Durotech may make changes to the materials

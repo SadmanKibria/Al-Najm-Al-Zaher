@@ -11,10 +11,10 @@ export default function CookiePolicyPage() {
 
         <div className="max-w-4xl mx-auto space-y-6 text-gray-700">
           <p>
-            This Cookie Policy explains how Durotech ("we", "us", or "our") uses
-            cookies and similar technologies on our website. By using our
-            website, you consent to the use of cookies as described in this
-            policy.
+            This Cookie Policy explains how Durotech (&quot;we&quot;,
+            &quot;us&quot;, or &quot;our&quot;) uses cookies and similar
+            technologies on our website. By using our website, you consent to
+            the use of cookies as described in this policy.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-[#172D56]">
@@ -24,10 +24,10 @@ export default function CookiePolicyPage() {
             Cookies are small text files that are placed on your device when you
             visit a website. They are widely used to make websites work more
             efficiently and provide information to the website owners. Cookies
-            can be "session cookies" or "persistent cookies". Session cookies
-            are temporary and are deleted when you close your browser, while
-            persistent cookies remain on your device until they expire or you
-            delete them.
+            can be &quot;session cookies&quot; or &quot;persistent
+            cookies&quot;. Session cookies are temporary and are deleted when
+            you close your browser, while persistent cookies remain on your
+            device until they expire or you delete them.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-[#172D56]">
@@ -62,10 +62,10 @@ export default function CookiePolicyPage() {
           </h2>
           <p>
             Most web browsers allow you to control cookies through their
-            settings. You can usually find these settings in the "Options" or
-            "Preferences" menu of your browser. You can also delete cookies
-            already stored on your computer, but this may affect the
-            functionality of our website.
+            settings. You can usually find these settings in the
+            &quot;Options&quot; or &quot;Preferences&quot; menu of your browser.
+            You can also delete cookies already stored on your computer, but
+            this may affect the functionality of our website.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-[#172D56]">

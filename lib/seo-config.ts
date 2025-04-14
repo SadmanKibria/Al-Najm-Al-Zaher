@@ -1,7 +1,7 @@
 /**
  * SEO Configuration
  *
- * This file contains centralised configuration for the website's SEO,
+ * This file contains centralised configuration for the website&apos;s SEO,
  * commodity trading information and structured data for search engines.
  *
  * @author Sadman Kibria (https://sadmankibria.com)
@@ -27,7 +27,7 @@ export const siteConfig = {
 
   // Company details
   company: {
-    email: "alnajmalzaher.uk@gmail.com",
+    email: "durotech.uk@gmail.com",
     phone: "+44 7123 456789",
     address: "London, United Kingdom",
     businessHours: "Monday - Friday: 9:00 AM - 5:00 PM",

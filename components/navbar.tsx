@@ -46,14 +46,14 @@ export default function Navbar() {
           : "bg-transparent border-b border-transparent"
       }`}
     >
-      <div className="container flex h-20 items-center justify-between px-4 md:px-6">
-        <div className="flex items-center gap-2">
+      <div className="container flex h-24 items-center justify-between px-4 md:px-6">
+        <div className="flex items-center">
           <Link href="/" className="flex items-center">
             <Image
               src="/logo.png"
               alt="Al Najm Al Zaher Logo"
-              width={70}
-              height={70}
+              width={100}
+              height={100}
               priority
               className="rounded-md"
             />
@@ -61,10 +61,10 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex gap-8">
+        <nav className="hidden md:flex gap-10 mx-auto justify-center">
           <Link
             href="/"
-            className="text-sm font-medium text-slate-800 hover:text-blue-600 transition-colors relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-blue-600 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+            className="text-base font-medium text-slate-800 hover:text-blue-600 transition-colors relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-blue-600 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
           >
             Home
           </Link>
@@ -72,7 +72,7 @@ export default function Navbar() {
           {/* Products Dropdown */}
           <div className="relative group">
             <button
-              className="flex items-center text-sm font-medium text-slate-800 hover:text-blue-600 transition-colors relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-blue-600 after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300"
+              className="flex items-center text-base font-medium text-slate-800 hover:text-blue-600 transition-colors relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-blue-600 after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300"
               onClick={() => setProductsOpen(!productsOpen)}
             >
               Products{" "}
@@ -105,7 +105,7 @@ export default function Navbar() {
           {/* About Dropdown */}
           <div className="relative group">
             <button
-              className="flex items-center text-sm font-medium text-slate-800 hover:text-blue-600 transition-colors relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-blue-600 after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300"
+              className="flex items-center text-base font-medium text-slate-800 hover:text-blue-600 transition-colors relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-blue-600 after:scale-x-0 group-hover:after:scale-x-100 after:transition-transform after:duration-300"
               onClick={() => setAboutOpen(!aboutOpen)}
             >
               About{" "}
@@ -137,11 +137,15 @@ export default function Navbar() {
 
           <Link
             href="/contact"
-            className="text-sm font-medium text-slate-800 hover:text-blue-600 transition-colors relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-blue-600 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
+            className="text-base font-medium text-slate-800 hover:text-blue-600 transition-colors relative after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0.5 after:bg-blue-600 after:scale-x-0 hover:after:scale-x-100 after:transition-transform after:duration-300"
           >
             Contact Us
           </Link>
         </nav>
+
+        <div className="hidden md:block">
+          {/* Empty div to balance the layout for center alignment */}
+        </div>
 
         {/* Mobile Menu Button */}
         <Button
@@ -158,14 +162,14 @@ export default function Navbar() {
       {/* Mobile Navigation */}
       {isOpen && (
         <div className="fixed inset-0 z-50 bg-white/95 backdrop-blur-md md:hidden">
-          <div className="container flex h-20 items-center justify-between">
+          <div className="container flex h-24 items-center justify-between">
             <div className="flex items-center gap-2">
               <Link href="/" className="flex items-center">
                 <Image
                   src="/logo.png"
                   alt="Al Najm Al Zaher Logo"
-                  width={60}
-                  height={60}
+                  width={90}
+                  height={90}
                 />
               </Link>
             </div>

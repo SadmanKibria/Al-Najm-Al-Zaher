@@ -3,28 +3,34 @@ import Image from "next/image";
 export default function DirectorsPage() {
   const directors = [
     {
-      name: "John Smith",
-      position: "Chief Executive Officer",
-      image: "/placeholder.svg?height=400&width=400",
-      bio: "John Smith has over 25 years of experience in the commodity trading industry. He founded Durotech with a vision to create a global trading company built on principles of integrity, reliability, and excellence. Under his leadership, Durotech has grown into a respected name in international commodity markets.",
+      name: "Mohammed Nasir U Mozumder",
+      position: "Director and CEO",
+      image: "/Mohammed-Nasir-U-Mozumder.jpg?height=400&width=400",
+      bio: "Mohammed Nasir U Mozumder is the visionary leader behind Durotech. With over 25 years of experience in commodity trading and international business, he has successfully navigated complex markets and established Durotech as a trusted name in the industry. His strategic insights and commitment to excellence drive the company's growth and innovation.",
     },
     {
-      name: "Sarah Johnson",
-      position: "Chief Operations Officer",
-      image: "/placeholder.svg?height=400&width=400",
-      bio: "Sarah Johnson brings 20 years of operational expertise to Durotech. With a background in supply chain management and international logistics, she oversees the company's day-to-day operations, ensuring efficient processes and timely delivery of commodities to clients worldwide.",
+      name: "Mohammed Moin Uddin",
+      position: "Director",
+      image: "/Mohammed-Moin-Uddin.jpg?height=400&width=400",
+      bio: "Mohammed Moin Uddin is a seasoned professional with a wealth of experience in commodity trading and supply chain management. As a director at Durotech, he plays a crucial role in overseeing operations and ensuring the company's commitment to quality and reliability in all its dealings.",
     },
     {
-      name: "Michael Chen",
-      position: "Chief Financial Officer",
-      image: "/placeholder.svg?height=400&width=400",
-      bio: "Michael Chen is a seasoned financial expert with extensive experience in commodity trading finance. He manages Durotech's financial strategies, risk management, and investment decisions, ensuring the company's continued growth and stability in volatile market conditions.",
+      name: "Major (Ret.) Nazmul Hasan",
+      position: "Director",
+      image: "/Major-Ret.-Nazmul-Hasan.jpg?height=400&width=400",
+      bio: "Major (Ret.) Nazmul Hasan brings a unique perspective to Durotech with his military background and expertise in logistics and operations. His leadership skills and strategic thinking have been instrumental in streamlining Durotech's operations and enhancing its competitive edge in the market.",
     },
     {
-      name: "Elena Rodriguez",
-      position: "Director of International Trade",
-      image: "/placeholder.svg?height=400&width=400",
-      bio: "Elena Rodriguez leads Durotech's international trade initiatives, leveraging her extensive knowledge of global markets and trade regulations. With over 15 years of experience in international business, she has established valuable partnerships across multiple continents, expanding Durotech's global reach.",
+      name: "Lt.Col. (Ren.) Md Mostafizar Rahman",
+      position: "Director",
+      image: "/Lt.Col_.-Ret.-Md-Mostafizur-Rahman.jpg?height=400&width=400",
+      bio: "Lt.Col. (Ret.) Md Mostafizar Rahman is a distinguished leader with extensive experience in operations and management. His military background and strategic acumen contribute to Durotech's operational excellence and commitment to delivering high-quality services to its clients.",
+    },
+    {
+      name: "Ahmed Hussain",
+      position: "Director",
+      image: "/Ahmed-Hussain.jpg?height=400&width=400",
+      bio: "Ahmed Hussain is a dynamic leader with a strong background in finance and business development. As a director at Durotech, he focuses on strategic partnerships and market expansion, leveraging his expertise to drive the company's growth and enhance its global presence.",
     },
   ];
 
@@ -37,8 +43,8 @@ export default function DirectorsPage() {
           </h1>
           <div className="w-20 h-1.5 bg-blue-600 rounded-full mb-6"></div>
           <p className="max-w-3xl text-lg text-gray-700">
-            Meet the leadership team behind Durotech's success. Our directors
-            bring decades of combined experience in commodity trading,
+            Meet the leadership team behind Durotech&apos;s success. Our
+            directors bring decades of combined experience in commodity trading,
             international business, and strategic management.
           </p>
         </div>

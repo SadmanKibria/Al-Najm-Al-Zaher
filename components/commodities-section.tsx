@@ -6,21 +6,21 @@ export default function CommoditiesSection() {
   const commodities = [
     {
       title: "Wheat Grain",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/Wheat-Grain-scaled.jpg?height=300&width=500",
       description:
         "High-quality wheat grain sourced from premium agricultural regions for various applications.",
       link: "/products/wheat-grain",
     },
     {
       title: "Refined Sunflower Oil",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/Sunflower-Oil.jpg?height=300&width=500",
       description:
         "Premium refined sunflower oil with excellent quality for cooking and food production.",
       link: "/products/refined-sunflower-oil",
     },
     {
       title: "Crude Soya Bean Oil",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/Soya-Bean-Oil.jpg?height=300&width=500",
       description:
         "Unrefined soya bean oil with rich nutritional composition for various industrial applications.",
       link: "/products/crude-soya-bean-oil",

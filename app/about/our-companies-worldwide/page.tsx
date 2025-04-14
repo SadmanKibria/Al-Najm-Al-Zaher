@@ -70,7 +70,7 @@ export default function OurCompaniesWorldwidePage() {
 
         <div className="relative h-[400px] mb-16 rounded-lg overflow-hidden">
           <Image
-            src="/placeholder.svg?height=800&width=1600"
+            src="/company-wordwide.jpg?height=800&width=1600"
             alt="Global Map"
             fill
             className="object-cover"

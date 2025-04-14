@@ -17,8 +17,9 @@ export default function TermsConditionsPage() {
 
           <p>
             By accessing this website, we assume you accept these terms and
-            conditions in full. Do not continue to use Durotech's website if you
-            do not accept all of the terms and conditions stated on this page.
+            conditions in full. Do not continue to use Durotech&apos;s website
+            if you do not accept all of the terms and conditions stated on this
+            page.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-[#172D56]">

@@ -4,7 +4,7 @@ export default function RefinedSunflowerOilPage() {
   return (
     <ProductDetail
       title="Refined Sunflower Oil"
-      image="/placeholder.svg?height=600&width=800"
+      image="/Sunflower-Oil.jpg?height=600&width=800"
       description={[
         "Refined Sunflower Oil is a light, healthy cooking oil extracted from sunflower seeds. It undergoes a refining process to remove impurities, resulting in a clear, pale yellow oil with a mild flavor and high smoke point.",
         "Our refined sunflower oil is rich in vitamin E and low in saturated fats, making it a healthy choice for various cooking applications. It's ideal for frying, baking, and as a base for salad dressings and marinades.",
