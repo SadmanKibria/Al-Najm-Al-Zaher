@@ -21,7 +21,7 @@ export default function DirectorsPage() {
       bio: "Major (Ret.) Nazmul Hasan brings a unique perspective to Durotech with his military background and expertise in logistics and operations. His leadership skills and strategic thinking have been instrumental in streamlining Durotech's operations and enhancing its competitive edge in the market.",
     },
     {
-      name: "Lt.Col. (Ren.) Md Mostafizar Rahman",
+      name: "Lt.Col. (Ret.) Md Mostafizar Rahman",
       position: "Director",
       image: "/Lt.Col_.-Ret.-Md-Mostafizur-Rahman.jpg?height=400&width=400",
       bio: "Lt.Col. (Ret.) Md Mostafizar Rahman is a distinguished leader with extensive experience in operations and management. His military background and strategic acumen contribute to Durotech's operational excellence and commitment to delivering high-quality services to its clients.",
