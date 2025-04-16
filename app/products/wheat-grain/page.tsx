@@ -8,7 +8,7 @@ export default function WheatGrainPage() {
       description={[
         "Wheat is a cereal grain that is a worldwide staple food. The many species of wheat together make up the genus Triticum; the most widely grown is common wheat. Wheat is grown on more land area than any other food crop and is the most important staple food for humans.",
         "Our wheat grain is sourced from premium agricultural regions, ensuring high quality and nutritional value. We offer various grades suitable for different applications, from food production to animal feed.",
-        "We provide reliable supply chains and competitive pricing for wheat grain, with flexible shipping options to meet your specific requirements. Our quality control processes ensure that all wheat grain meets international standards and specifications.",
+        "Al Najm Al Zaher provides reliable supply chains and competitive pricing for wheat grain, with flexible shipping options to meet your specific requirements. Our quality control processes ensure that all wheat grain meets international standards and specifications.",
       ]}
       specifications={[
         { label: "Origin", value: "Multiple origins available" },

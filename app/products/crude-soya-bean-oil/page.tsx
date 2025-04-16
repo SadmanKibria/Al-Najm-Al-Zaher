@@ -8,7 +8,7 @@ export default function CrudeSoyaBeanOilPage() {
       description={[
         "Crude Soya Bean Oil is an unrefined vegetable oil extracted from soybeans. It has a rich, natural composition that makes it valuable for both food and industrial applications after appropriate refining processes.",
         "Our crude soya bean oil is sourced from premium quality soybeans, ensuring high nutritional value and consistent quality. The oil is rich in essential fatty acids and has various applications in the food industry after refining.",
-        "Durotech provides reliable supply chains for crude soya bean oil with competitive pricing and flexible shipping options. Our quality control processes ensure that all crude soya bean oil meets industry standards and specifications.",
+        "Al Najm Al Zaher provides reliable supply chains for crude soya bean oil with competitive pricing and flexible shipping options. Our quality control processes ensure that all crude soya bean oil meets industry standards and specifications.",
       ]}
       specifications={[
         { label: "Color", value: "Dark amber to reddish-brown" },

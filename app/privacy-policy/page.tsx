@@ -11,12 +11,12 @@ export default function PrivacyPolicyPage() {
 
         <div className="max-w-4xl mx-auto space-y-6 text-gray-700">
           <p>
-            At Durotech, we are committed to protecting your privacy. This
-            Privacy Policy explains how we collect, use, disclose, and safeguard
-            your information when you visit our website or engage with our
-            services. Please read this privacy policy carefully. If you do not
-            agree with the terms of this privacy policy, please do not access
-            the site.
+            At Al Najm Al Zaher, we are committed to protecting your privacy.
+            This Privacy Policy explains how we collect, use, disclose, and
+            safeguard your information when you visit our website or engage with
+            our services. Please read this privacy policy carefully. If you do
+            not agree with the terms of this privacy policy, please do not
+            access the site.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-[#172D56]">
@@ -131,14 +131,14 @@ export default function PrivacyPolicyPage() {
             If you have questions or comments about this Privacy Policy, please
             contact us at:{" "}
             <a
-              href="mailto:durotech.uk@gmail.com"
+              href="mailto:alnajmalzaher.uae@gmail.com"
               className="text-blue-600 hover:underline"
             >
-              durotech.uk@gmail.com
+              alnajmalzaher.uae@gmail.com
             </a>
           </p>
 
-          <p className="mt-8 text-sm text-gray-500">Last updated: April 2023</p>
+          <p className="mt-8 text-sm text-gray-500">Last updated: April 2025</p>
         </div>
       </div>
     </section>

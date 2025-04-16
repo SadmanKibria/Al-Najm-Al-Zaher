@@ -11,18 +11,18 @@ export default function CompanyProfilePage() {
 
         <div className="max-w-4xl mx-auto space-y-6 text-gray-700">
           <p>
-            Durotech is a leading international commodity trading company
-            specializing in agricultural products, energy resources, and metals.
-            Founded with a vision to facilitate global trade through reliable
-            and efficient services, we have established ourselves as a trusted
-            partner for suppliers and buyers worldwide.
+            Al Najm Al Zaher is a leading international commodity trading
+            company specializing in agricultural products, energy resources, and
+            metals. Founded with a vision to facilitate global trade through
+            reliable and efficient services, we have established ourselves as a
+            trusted partner for suppliers and buyers worldwide.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-[#172D56]">
             Our History
           </h2>
           <p>
-            Established in 2010, Durotech has grown from a small trading
+            Established in 2010, Al Najm Al Zaher has grown from a small trading
             operation to a global presence with connections in major markets
             across Europe, Asia, Africa, and the Americas. Our journey has been
             marked by consistent growth, strategic partnerships, and an
@@ -70,7 +70,7 @@ export default function CompanyProfilePage() {
             Our Approach
           </h2>
           <p>
-            At Durotech, we take a client-centered approach to commodity
+            At Al Najm Al Zaher, we take a client-centered approach to commodity
             trading. We understand that each client has unique requirements, and
             we tailor our services accordingly. Our team of experienced
             professionals works closely with clients to understand their needs
@@ -88,7 +88,7 @@ export default function CompanyProfilePage() {
             Global Presence
           </h2>
           <p>
-            With operations spanning multiple continents, Durotech has
+            With operations spanning multiple continents, Al Najm Al Zaher has
             established a strong global presence. Our strategic locations enable
             us to respond quickly to market changes and client needs, ensuring
             timely delivery and competitive pricing.

@@ -11,25 +11,25 @@ export default function TermsConditionsPage() {
 
         <div className="max-w-4xl mx-auto space-y-6 text-gray-700">
           <p>
-            Welcome to Durotech. These terms and conditions outline the rules
-            and regulations for the use of our website and services.
+            Welcome to Al Najm Al Zaher. These terms and conditions outline the
+            rules and regulations for the use of our website and services.
           </p>
 
           <p>
             By accessing this website, we assume you accept these terms and
-            conditions in full. Do not continue to use Durotech&apos;s website
-            if you do not accept all of the terms and conditions stated on this
-            page.
+            conditions in full. Do not continue to use Al Najm Al Zaher&apos;s
+            website if you do not accept all of the terms and conditions stated
+            on this page.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-[#172D56]">
             License
           </h2>
           <p>
-            Unless otherwise stated, Durotech and/or its licensors own the
-            intellectual property rights for all material on this website. All
-            intellectual property rights are reserved. You may view and/or print
-            pages from the website for your own personal use subject to
+            Unless otherwise stated, Al Najm Al Zaher and/or its licensors own
+            the intellectual property rights for all material on this website.
+            All intellectual property rights are reserved. You may view and/or
+            print pages from the website for your own personal use subject to
             restrictions set in these terms and conditions.
           </p>
 
@@ -39,8 +39,8 @@ export default function TermsConditionsPage() {
             <li>Sell, rent, or sub-license material from this website</li>
             <li>Reproduce, duplicate, or copy material from this website</li>
             <li>
-              Redistribute content from Durotech (unless content is specifically
-              made for redistribution)
+              Redistribute content from Al Najm Al Zaher (unless content is
+              specifically made for redistribution)
             </li>
           </ul>
 
@@ -49,12 +49,12 @@ export default function TermsConditionsPage() {
           </h2>
           <p>
             Certain parts of this website offer the opportunity for users to
-            post and exchange opinions, information, material, and data.
-            Durotech does not screen, edit, publish, or review Comments prior to
+            post and exchange opinions, information, material, and data. Al Najm
+            Al Zaher does not screen, edit, publish, or review Comments prior to
             their appearance on the website and Comments do not reflect the
-            views or opinions of Durotech, its agents, or affiliates. Comments
-            reflect the view and opinion of the person who posts such view or
-            opinion.
+            views or opinions of Al Najm Al Zaher, its agents, or affiliates.
+            Comments reflect the view and opinion of the person who posts such
+            view or opinion.
           </p>
 
           <p>You warrant and represent that:</p>
@@ -130,7 +130,21 @@ export default function TermsConditionsPage() {
             fitness for purpose and/or the use of reasonable care and skill).
           </p>
 
-          <p className="mt-8 text-sm text-gray-500">Last updated: April 2023</p>
+          <h2 className="text-2xl font-semibold mt-8 mb-4 text-[#172D56]">
+            Contact Us
+          </h2>
+          <p>
+            If you have any questions about these Terms and Conditions, please
+            contact us at:{" "}
+            <a
+              href="mailto:alnajmalzaher.uae@gmail.com"
+              className="text-blue-600 hover:underline"
+            >
+              alnajmalzaher.uae@gmail.com
+            </a>
+          </p>
+
+          <p className="mt-8 text-sm text-gray-500">Last updated: April 2025</p>
         </div>
       </div>
     </section>

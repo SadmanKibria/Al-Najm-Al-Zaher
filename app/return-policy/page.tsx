@@ -11,9 +11,9 @@ export default function ReturnPolicyPage() {
 
         <div className="max-w-4xl mx-auto space-y-6 text-gray-700">
           <p>
-            At Durotech, we are committed to ensuring the quality and integrity
-            of all commodities we trade. This Return Policy outlines the
-            procedures and conditions for returns and refunds related to our
+            At Al Najm Al Zaher, we are committed to ensuring the quality and
+            integrity of all commodities we trade. This Return Policy outlines
+            the procedures and conditions for returns and refunds related to our
             commodity trading services.
           </p>
 
@@ -21,11 +21,11 @@ export default function ReturnPolicyPage() {
             Quality Assurance
           </h2>
           <p>
-            All commodities traded through Durotech undergo rigorous quality
-            control checks to ensure they meet the specified standards and
-            requirements. We provide detailed specifications for all commodities
-            and ensure that proper inspection and verification procedures are
-            followed before shipment.
+            All commodities traded through Al Najm Al Zaher undergo rigorous
+            quality control checks to ensure they meet the specified standards
+            and requirements. We provide detailed specifications for all
+            commodities and ensure that proper inspection and verification
+            procedures are followed before shipment.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-[#172D56]">
@@ -33,10 +33,10 @@ export default function ReturnPolicyPage() {
           </h2>
           <p>
             Upon receipt of commodities, buyers are advised to inspect the goods
-            promptly. Any discrepancies or quality issues must be reported to
-            Durotech within the inspection period specified in the contract,
-            typically within 3-5 business days of receipt, unless otherwise
-            stated in the specific trading agreement.
+            promptly. Any discrepancies or quality issues must be reported to Al
+            Najm Al Zaher within the inspection period specified in the
+            contract, typically within 3-5 business days of receipt, unless
+            otherwise stated in the specific trading agreement.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4 text-[#172D56]">
@@ -68,8 +68,8 @@ export default function ReturnPolicyPage() {
           <p>To initiate a return, please follow these steps:</p>
           <ol className="list-decimal pl-6 space-y-2">
             <li>
-              Contact your Durotech representative immediately upon discovering
-              any issues with the received commodities.
+              Contact your Al Najm Al Zaher representative immediately upon
+              discovering any issues with the received commodities.
             </li>
             <li>
               Provide detailed information about the issue, including
@@ -108,14 +108,14 @@ export default function ReturnPolicyPage() {
             If you have any questions about our Return Policy, please contact us
             at:{" "}
             <a
-              href="mailto:durotech.uk@gmail.com"
+              href="mailto:alnajmalzaher.uae@gmail.com"
               className="text-blue-600 hover:underline"
             >
-              durotech.uk@gmail.com
+              alnajmalzaher.uae@gmail.com
             </a>
           </p>
 
-          <p className="mt-8 text-sm text-gray-500">Last updated: April 2023</p>
+          <p className="mt-8 text-sm text-gray-500">Last updated: April 2025</p>
         </div>
       </div>
     </section>

@@ -52,10 +52,9 @@ export default function Navbar() {
             <Image
               src="/logo.png"
               alt="Al Najm Al Zaher Logo"
-              width={100}
-              height={100}
+              width={85}
+              height={85}
               priority
-              className="rounded-md"
             />
           </Link>
         </div>
@@ -168,8 +167,8 @@ export default function Navbar() {
                 <Image
                   src="/logo.png"
                   alt="Al Najm Al Zaher Logo"
-                  width={90}
-                  height={90}
+                  width={80}
+                  height={80}
                 />
               </Link>
             </div>

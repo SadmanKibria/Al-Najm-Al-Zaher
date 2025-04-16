@@ -27,9 +27,10 @@ export const siteConfig = {
 
   // Company details
   company: {
-    email: "durotech.uk@gmail.com",
-    phone: "+44 7123 456789",
-    address: "London, United Kingdom",
+    email: "alnajmalzaher.uae@gmail.com",
+    phone: "+971 50 625 0109",
+    address:
+      "Office No. 201, Al Ghurair Building B2, Al Muteena, Dubai, United Arab Emirates",
     businessHours: "Monday - Friday: 9:00 AM - 5:00 PM",
   },
 
@@ -46,8 +47,13 @@ export const siteConfig = {
     "international trade",
     "commodity supplier",
     "trading company UK",
+    "trading company UAE",
     "London commodity trader",
+    "Dubai commodity trader",
     "Sadman Kibria",
+    "Sadman",
+    "Kibria",
+    "Sadman London",
     "commodity trading solutions",
   ],
 };
@@ -71,8 +77,9 @@ export function generateOrganizationSchema() {
     },
     address: {
       "@type": "PostalAddress",
-      addressLocality: "London",
-      addressCountry: "UK",
+      addressLocality: "Dubai",
+      addressCountry: "UAE",
+      streetAddress: "Office No. 201, Al Ghurair Building B2, Al Muteena",
     },
     description: siteConfig.description,
   };

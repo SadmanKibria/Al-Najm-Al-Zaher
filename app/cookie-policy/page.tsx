@@ -11,7 +11,7 @@ export default function CookiePolicyPage() {
 
         <div className="max-w-4xl mx-auto space-y-6 text-gray-700">
           <p>
-            This Cookie Policy explains how Durotech (&quot;we&quot;,
+            This Cookie Policy explains how Al Najm Al Zaher (&quot;we&quot;,
             &quot;us&quot;, or &quot;our&quot;) uses cookies and similar
             technologies on our website. By using our website, you consent to
             the use of cookies as described in this policy.
@@ -85,15 +85,15 @@ export default function CookiePolicyPage() {
             If you have any questions about our Cookie Policy, please contact us
             at{" "}
             <a
-              href="mailto:durotech.uk@gmail.com"
+              href="mailto:alnajmalzaher.uae@gmail.com"
               className="text-blue-600 hover:underline"
             >
-              durotech.uk@gmail.com
+              alnajmalzaher.uae@gmail.com
             </a>
             .
           </p>
 
-          <p className="mt-8 text-sm text-gray-500">Last updated: April 2023</p>
+          <p className="mt-8 text-sm text-gray-500">Last updated: April 2025</p>
         </div>
       </div>
     </section>

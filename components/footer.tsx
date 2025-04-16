@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Mail } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
+import { siteConfig } from "@/lib/seo-config";
 
 export default function Footer() {
   return (
@@ -14,21 +15,37 @@ export default function Footer() {
                 alt="Al Najm Al Zaher Logo"
                 width={100}
                 height={100}
-                className="bg-white p-1 rounded-md"
               />
             </div>
             <p className="text-gray-300 text-sm max-w-xs">
               Providing comprehensive commodity trading solutions, specializing
               in agricultural commodities with global reach and expertise.
             </p>
-            <div className="flex items-center gap-2 text-gray-300">
-              <Mail className="h-4 w-4" />
-              <a
-                href="mailto:durotech.uk@gmail.com"
-                className="hover:text-white transition-colors"
-              >
-                durotech.uk@gmail.com
-              </a>
+
+            <div className="space-y-2">
+              <div className="flex items-center gap-2 text-gray-300">
+                <Mail className="h-4 w-4 shrink-0" />
+                <a
+                  href={`mailto:${siteConfig.company.email}`}
+                  className="hover:text-white transition-colors"
+                >
+                  {siteConfig.company.email}
+                </a>
+              </div>
+
+              <div className="flex items-center gap-2 text-gray-300">
+                <Phone className="h-4 w-4 shrink-0" />
+                <a
+                  href={`tel:${siteConfig.company.phone}`}
+                  className="hover:text-white transition-colors"
+                >
+                  {siteConfig.company.phone}
+                </a>
+              </div>
+              <div className="flex items-start gap-2 text-gray-300">
+                <MapPin className="h-4 w-4 shrink-0 mt-1" />
+                <span className="text-sm">{siteConfig.company.address}</span>
+              </div>
             </div>
           </div>
 
