@@ -47,7 +47,7 @@ export default function Navbar() {
       }`}
     >
       <div className="container flex h-24 items-center justify-between px-4 md:px-6">
-        <div className="flex items-center">
+        <div className="flex items-center space-x-3">
           <Link href="/" className="flex items-center">
             <Image
               src="/logo.png"
@@ -57,6 +57,9 @@ export default function Navbar() {
               priority
             />
           </Link>
+          <span className="text-sm md:text-base font-medium text-blue-600 whitespace-nowrap">
+            A Durotech Company
+          </span>
         </div>
 
         {/* Desktop Navigation */}
@@ -162,7 +165,7 @@ export default function Navbar() {
       {isOpen && (
         <div className="fixed inset-0 z-50 bg-white/95 backdrop-blur-md md:hidden">
           <div className="container flex h-24 items-center justify-between">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-3">
               <Link href="/" className="flex items-center">
                 <Image
                   src="/logo.png"
@@ -171,6 +174,9 @@ export default function Navbar() {
                   height={80}
                 />
               </Link>
+              <span className="text-sm font-medium text-blue-600 whitespace-nowrap">
+                A Durotech Company
+              </span>
             </div>
             <Button
               variant="ghost"
@@ -182,6 +188,7 @@ export default function Navbar() {
               <span className="sr-only">Close menu</span>
             </Button>
           </div>
+
           <nav className="container grid gap-6 py-8">
             <Link
               href="/"

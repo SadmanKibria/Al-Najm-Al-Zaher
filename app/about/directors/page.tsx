@@ -6,31 +6,31 @@ export default function DirectorsPage() {
       name: "Mohammed Nasir U Mozumder",
       position: "Director and CEO",
       image: "/Mohammed-Nasir-U-Mozumder.jpg?height=400&width=400",
-      bio: "Mohammed Nasir U Mozumder is the visionary leader behind Durotech. With over 25 years of experience in commodity trading and international business, he has successfully navigated complex markets and established Durotech as a trusted name in the industry. His strategic insights and commitment to excellence drive the company's growth and innovation.",
+      bio: "Mohammed Nasir U Mozumder is the visionary leader behind Al Najm Al Zaher. With over 25 years of experience in commodity trading and international business, he has successfully navigated complex markets and established Al Najm Al Zaher as a trusted name in the industry. His strategic insights and commitment to excellence drive the company's growth and innovation.",
     },
     {
       name: "Mohammed Moin Uddin",
       position: "Director",
       image: "/Mohammed-Moin-Uddin.jpg?height=400&width=400",
-      bio: "Mohammed Moin Uddin is a seasoned professional with a wealth of experience in commodity trading and supply chain management. As a director at Durotech, he plays a crucial role in overseeing operations and ensuring the company's commitment to quality and reliability in all its dealings.",
+      bio: "Mohammed Moin Uddin is a seasoned professional with a wealth of experience in commodity trading and supply chain management. As a director at Al Najm Al Zaher, he plays a crucial role in overseeing operations and ensuring the company's commitment to quality and reliability in all its dealings.",
     },
     {
       name: "Major (Ret.) Nazmul Hasan",
       position: "Director",
       image: "/Major-Ret.-Nazmul-Hasan.jpg?height=400&width=400",
-      bio: "Major (Ret.) Nazmul Hasan brings a unique perspective to Durotech with his military background and expertise in logistics and operations. His leadership skills and strategic thinking have been instrumental in streamlining Durotech's operations and enhancing its competitive edge in the market.",
+      bio: "Major (Ret.) Nazmul Hasan brings a unique perspective to Al Najm Al Zaher with his military background and expertise in logistics and operations. His leadership skills and strategic thinking have been instrumental in streamlining Al Najm Al Zaher's operations and enhancing its competitive edge in the market.",
     },
     {
       name: "Lt.Col. (Ret.) Md Mostafizar Rahman",
       position: "Director",
       image: "/Lt.Col_.-Ret.-Md-Mostafizur-Rahman.jpg?height=400&width=400",
-      bio: "Lt.Col. (Ret.) Md Mostafizar Rahman is a distinguished leader with extensive experience in operations and management. His military background and strategic acumen contribute to Durotech's operational excellence and commitment to delivering high-quality services to its clients.",
+      bio: "Lt.Col. (Ret.) Md Mostafizar Rahman is a distinguished leader with extensive experience in operations and management. His military background and strategic acumen contribute to Al Najm Al Zaher's operational excellence and commitment to delivering high-quality services to its clients.",
     },
     {
       name: "Ahmed Hussain",
       position: "Director",
       image: "/Ahmed-Hussain.jpg?height=400&width=400",
-      bio: "Ahmed Hussain is a dynamic leader with a strong background in finance and business development. As a director at Durotech, he focuses on strategic partnerships and market expansion, leveraging his expertise to drive the company's growth and enhance its global presence.",
+      bio: "Ahmed Hussain is a dynamic leader with a strong background in finance and business development. As a director at Al Najm Al Zaher, he focuses on strategic partnerships and market expansion, leveraging his expertise to drive the company's growth and enhance its global presence.",
     },
   ];
 
@@ -43,7 +43,7 @@ export default function DirectorsPage() {
           </h1>
           <div className="w-20 h-1.5 bg-blue-600 rounded-full mb-6"></div>
           <p className="max-w-3xl text-lg text-gray-700">
-            Meet the leadership team behind Durotech&apos;s success. Our
+            Meet the leadership team behind Al Najm Al Zaher&apos;s success. Our
             directors bring decades of combined experience in commodity trading,
             international business, and strategic management.
           </p>

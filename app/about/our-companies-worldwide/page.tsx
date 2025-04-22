@@ -7,9 +7,15 @@ export default function OurCompaniesWorldwidePage() {
       description:
         "Our European operations are headquartered in London, with additional offices in Rotterdam and Geneva. These strategic locations allow us to serve the European market efficiently, with a focus on agricultural commodities and energy products.",
       companies: [
-        { name: "Durotech UK Ltd.", location: "London, United Kingdom" },
-        { name: "Durotech Trading B.V.", location: "Rotterdam, Netherlands" },
-        { name: "Durotech SA", location: "Geneva, Switzerland" },
+        {
+          name: "Al Najm Al Zaher UK Ltd.",
+          location: "London, United Kingdom",
+        },
+        {
+          name: "Al Najm Al Zaher Trading B.V.",
+          location: "Rotterdam, Netherlands",
+        },
+        { name: "Al Najm Al Zaher SA", location: "Geneva, Switzerland" },
       ],
     },
     {
@@ -17,12 +23,15 @@ export default function OurCompaniesWorldwidePage() {
       description:
         "Our Asian presence spans major trading hubs, enabling us to connect with suppliers and buyers across this dynamic region. We focus on a wide range of commodities, including agricultural products, metals, and energy resources.",
       companies: [
-        { name: "Durotech Asia Pte Ltd.", location: "Singapore" },
+        { name: "Al Najm Al Zaher Asia Pte Ltd.", location: "Singapore" },
         {
-          name: "Durotech Trading (Shanghai) Co., Ltd.",
+          name: "Al Najm Al Zaher Trading (Shanghai) Co., Ltd.",
           location: "Shanghai, China",
         },
-        { name: "Durotech India Private Limited", location: "Mumbai, India" },
+        {
+          name: "Al Najm Al Zaher India Private Limited",
+          location: "Mumbai, India",
+        },
       ],
     },
     {
@@ -30,10 +39,13 @@ export default function OurCompaniesWorldwidePage() {
       description:
         "Our operations in the Americas cover both North and South America, with a strong focus on agricultural commodities and energy products. These strategic locations allow us to source and distribute commodities efficiently across the region.",
       companies: [
-        { name: "Durotech Americas Inc.", location: "Houston, USA" },
-        { name: "Durotech Brasil Ltda.", location: "São Paulo, Brazil" },
+        { name: "Al Najm Al Zaher Americas Inc.", location: "Houston, USA" },
         {
-          name: "Durotech Argentina S.A.",
+          name: "Al Najm Al Zaher Brasil Ltda.",
+          location: "São Paulo, Brazil",
+        },
+        {
+          name: "Al Najm Al Zaher Argentina S.A.",
           location: "Buenos Aires, Argentina",
         },
       ],
@@ -43,12 +55,15 @@ export default function OurCompaniesWorldwidePage() {
       description:
         "Our presence in Africa and the Middle East allows us to tap into emerging markets and establish direct connections with producers and consumers in these regions. We focus on agricultural commodities, energy products, and metals.",
       companies: [
-        { name: "Durotech DMCC", location: "Dubai, UAE" },
+        { name: "Al Najm Al Zaher DMCC", location: "Dubai, UAE" },
         {
-          name: "Durotech South Africa (Pty) Ltd.",
+          name: "Al Najm Al Zaher South Africa (Pty) Ltd.",
           location: "Johannesburg, South Africa",
         },
-        { name: "Durotech West Africa Ltd.", location: "Lagos, Nigeria" },
+        {
+          name: "Al Najm Al Zaher West Africa Ltd.",
+          location: "Lagos, Nigeria",
+        },
       ],
     },
   ];
@@ -62,9 +77,9 @@ export default function OurCompaniesWorldwidePage() {
           </h1>
           <div className="w-20 h-1.5 bg-blue-600 rounded-full mb-6"></div>
           <p className="max-w-3xl text-lg text-gray-700">
-            Durotech operates globally through a network of strategically
-            located companies, enabling us to serve clients efficiently across
-            different regions and markets.
+            Al Najm Al Zaher operates globally through a network of
+            strategically located companies, enabling us to serve clients
+            efficiently across different regions and markets.
           </p>
         </div>
 
